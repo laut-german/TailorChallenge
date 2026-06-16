@@ -216,7 +216,6 @@ Create a Next.js app that consumes your API.
 - Display empty states and error states where appropriate.
 - Use a state management or server-state library where it makes sense.
 - Make it responsive and visually appealing.
-- Follow the provided Figma design as closely as is reasonable, but pixel-perfect implementation is not required.
 
 ## Figma Design
 
