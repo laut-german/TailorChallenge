@@ -14,7 +14,12 @@ Build a REST API in Node.js using Express, Fastify, NestJS, or a similar framewo
 
 TypeScript is expected. If you decide not to use it, explain why in the README.
 
-Persistence is optional. You may keep the data in memory or load it from JSON files. A database is a bonus, not a requirement.
+Persistence is optional. You may keep the data in memory, load it from JSON files, use a local database, or use a hosted free tier such as Supabase (https://supabase.com/), Neon (https://neon.com/), or MongoDB Atlas (https://www.mongodb.com/products/platform/atlas-database).
+
+Whichever option you choose, keep the data model clear and intentional. If you use a database, define the schema and manage migrations with an ORM or migration tool of your choice, such as Prisma, Drizzle, TypeORM, or similar.
+
+If you use in-memory or JSON-based storage, keep data access isolated behind repositories or services instead of coupling the business logic directly to arrays or files. We are more interested in clean boundaries and maintainable code than in a specific persistence technology.
+
 
 ### Required Features
 
