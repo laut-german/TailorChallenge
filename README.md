@@ -268,25 +268,13 @@ We will review the code structure, the AI usage notes, and your ability to expla
 - Deploy the app.
 - Use JWT authentication.
 - Use Tailwind CSS.
-- Add a persistence layer such as SQLite, PostgreSQL, MongoDB, or similar.
+- Add a persistence layer.
 - Add OpenAPI/Swagger documentation.
 - Add Docker or Docker Compose.
 - Write realistic unit tests for backend business rules.
 - Write integration tests for API endpoints.
 - Write end-to-end tests for the main frontend flow.
 - Add basic accessibility improvements.
-- Handle concurrent reservation attempts for the same slot.
-
-## Non-Goals
-
-You do not need to implement:
-
-- Deposits or checkout flows.
-- Webhooks.
-- Email notifications.
-- Real-time updates.
-- A complex admin panel.
-- Perfect visual parity with the Figma file.
 
 ## What We Will Evaluate
 
